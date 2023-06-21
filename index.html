@@ -47,7 +47,7 @@
         <div id="lead-content">
             <h1>Tony Chen</h1>
             <h2>Software Developer</h2>
-            <a href="https://drive.google.com/file/d/1RAgvc--fkJ9xn8g9Ch9dha8Hjd8V6_UN/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
+            <a href="https://drive.google.com/file/d/1A05gBz7H_fxxhmA6XpdADf--5xQbAhNd/view?usp=sharing" class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 	
@@ -85,14 +85,20 @@
 			<div data-date="March 2022 – Present">
                 <h3>PointClickCare</h3>
                 <h4 style="color:#374054">Software Engineer</h4>
+								<ul>
+										<li>Developed an EHR terminology service using <strong>Java</strong>, <strong>Spring</strong> and <strong>SQL</strong> to provide a mapping of public standards for ONC certification</li>
+										<li>Implemented the <strong>backend</strong> using <strong>MVCS</strong> design pattern and integrated with third party APIs from IMO</li>										
+                    <li>Updated existing <strong>APIs</strong> to use the service and ensured reliability of new features with unit tests</li>
+										<li>Conducted PRR, FMEA, and security reviews to ensure safe delivery of service into production</li>
+								</ul>
       </div> 
 	    <div data-date="May 2021 – March 2022">
                 <h3>Varicent</h3>
                 <h4 style="color:#374054">Software QA Analyst</h4>
                 <ul>
-										<li>Wrote <strong>Python</strong> scripts to simplify checking for undeployed commits and set up a <strong>Jenkins</strong> job to automate the process</li>
-										<li>Created <strong>Splunk</strong> dashboards to monitor <strong>API</strong> calls in <strong>AWS</strong> and alert when spikes occur</li>										
-                    <li>Performed functional and regression testing on features that reduced client model calculation times by upwards of 90%</li>
+										<li>Wrote <strong>Python</strong> scripts to check for undeployed commits and automated the process using a <strong>Jenkins</strong> job</li>
+										<li>Created Splunk dashboards to monitor API calls in <strong>AWS</strong> and alert spikes to on-call team</li>										
+                    <li>Led performance testing on features that reduced client model calculation times by 20%</li>
 								</ul>
             </div> 
 	    <div data-date="May 2020 – August 2020">
@@ -100,8 +106,8 @@
                 <h4 style="color:#374054">Software Developer Intern</h4>
                 <ul>
                     <li>Built a GUI using <strong>LabVIEW</strong> to control a scale model of a human centrifuge</li>
-										<li>Architected UML diagrams of the centrifuge system to understand and visualize the functional and performance requirements</li>
-										<li>Used Weebly to build over a dozen webpages for the research lab website with an emphasis on content and aesthetics</li>
+										<li>Architected UML diagrams of the centrifuge system to visualize and document the requirements</li>
+										<li>Designed the research lab website using Weebly to build an online presence and improve credibility</li>
                 </ul>
             </div> 		
             <div data-date="May 2019 – August 2019">
@@ -135,6 +141,26 @@
     <div id="projects" class="background-alt">
 			<h2 class="heading">Projects</h2>
 			<div class="container">
+				<div class="row">
+						<div class="project shadow-large">
+							 <div class="project-image">
+									<img src="images/rubik.jpg" alt="Rubik's Cube" width="300" height="300" />
+								</div>
+								 <!-- End .project-image -->
+								 <div class="project-info">
+									<h3>Rubik’s Cube Algorithm Practice Tool</h3>
+										<ul style="text-align:left">
+											<li> Built a web app using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to practice permutation algorithms</li>
+											<li>Hosted CORS Anywhere, a <strong>NodeJS</strong> proxy, on Heroku to make API requests through JDoodle’s <strong>Java</strong> compiler</li>	
+											<li>Switched <strong>hosting</strong> service to Render after removal of Heroku’s free tier</li>	
+										</ul>
+										<a href="https://tonychen11.github.io/RubiksAlgoGen/">View Website</a>
+								 </div>
+												<!-- End .project-info -->
+						</div>
+										<!-- End .project -->             
+					</div>
+					
 					<div class="row">
 							<div class="project shadow-large">
 									<div class="project-image">
@@ -144,8 +170,8 @@
 									<div class="project-info">
 										<h3>Carbon Footprint Tracker App (NetZero)</h3>
 										<ul style="text-align:left">
-											<li>Developed an app with Queen’s <strong>start-up</strong> NetZero that tracks users’ carbon footprints and encourages sustainable decisions</li>
-											<li>Designed various screens using <strong>Flutter</strong> and their backend logic using <strong>Firebase</strong> Authentication</li>	            
+											<li>Created a mobile app that tracks users’ carbon footprints and encourages sustainable decisions</li>
+											<li>Designed various screens using <strong>Flutter</strong> and their backend logic with <strong>Firebase</strong> Authentication</li>	            
 										</ul>
 									<a href="https://youtu.be/Ee9bzm7OGuI">Demo Video</a>
 									</div>
@@ -153,25 +179,6 @@
 							</div>
 							<!-- End .project -->             
 					</div>
-		
-				<div class="row">
-					<div class="project shadow-large">
-						 <div class="project-image">
-								<img src="images/rubik.jpg" alt="Rubik's Cube" width="300" height="300" />
-							</div>
-							 <!-- End .project-image -->
-							 <div class="project-info">
-								<h3>Rubik’s Cube Algorithm Practice Tool</h3>
-									<ul style="text-align:left">
-										<li> Built an interactive website using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> for users to practice inverse permutation algorithms</li>
-										<li>Hosted CORS Anywhere, a <strong>NodeJS</strong> proxy, on Heroku to allow cross-origin <strong>API</strong> requests made through JDoodle’s <strong>Java</strong> compiler</li>	
-									</ul>
-									<a href="https://tonychen11.github.io/RubiksAlgoGen/">View Website</a>
-							 </div>
-											<!-- End .project-info -->
-					</div>
-									<!-- End .project -->             
-				</div>
       </div>
     </div>
     <!-- End #projects -->
@@ -180,21 +187,17 @@
       <h2 class="heading">Skills</h2>
         <ul>
           <li>Java</li>
+					<li>SQL</li>
           <li>Python</li>
-					<li>C++</li>
-					<li>Spring Boot</li>
-          <li>HTML</li>
-          <li>CSS</li>
 					<li>JavaScript</li>
-          <li>Flutter</li>
-          <li>SQL</li>
-          <li>AWS</li>
+					<li>HTML/CSS</li>
+					<li>Spring</li>
+					<li>React</li>
 					<li>Git</li>
-					<li>Spark</li>
+					<li>Postman</li>
 					<li>Jira</li>
           <li>Jenkins</li>
-					<li>Postman</li>
-					<li>Splunk</li>
+					<li>JMeter</li>
 				</ul>
     </div>
     <!-- End #skills -->
